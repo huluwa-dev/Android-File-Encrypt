@@ -1,7 +1,8 @@
 # Android-File-Encrypt
 Encrypt and decrypt files in android or java
 
-use:
+#Encrypt
+FileEnDecryptManager.getInstance().doEncrypt(filePath);
 
-Encrypt:FileEnDecryptManager.getInstance().doEncrypt(filePath);
-deCrypt:FileEnDecryptManager.getInstance().doDecrypt(filePath);
+#Decrypt
+FileEnDecryptManager.getInstance().doDecrypt(filePath);
