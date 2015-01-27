@@ -1,4 +1,3 @@
-import android.content.Context;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -23,7 +22,7 @@ public class FileEnDecryptManager {
 
     private static FileEnDecryptManager instance = null;
 
-    public static FileEnDecryptManager getInstance(Context context) {
+    public static FileEnDecryptManager getInstance() {
         synchronized (FileEnDecryptManager.class) {
             if (instance == null) {
                 instance = new FileEnDecryptManager();
